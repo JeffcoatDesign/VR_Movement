@@ -1,0 +1,74 @@
+{
+    "name": "tst",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "e0298d1a-b6da-4105-a355-e48edf8a56df",
+            "actions": [
+                {
+                    "name": "Right XR Primary Button",
+                    "type": "Button",
+                    "id": "a9dbe209-c51e-4365-9808-9a06be1d7228",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right XR Position",
+                    "type": "PassThrough",
+                    "id": "14ad7bd4-2e6e-457f-a8f7-ba5156f8af15",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right XR Secondary Button",
+                    "type": "Button",
+                    "id": "45d91097-7f3f-4bf6-8179-66ce0837c231",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0c80705b-cec2-41b5-a88f-abb243b69241",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right XR Primary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec961e35-1330-4172-9fc7-beec3228984a",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right XR Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3784da3-16d1-4784-89b1-0145e423575d",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right XR Secondary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
